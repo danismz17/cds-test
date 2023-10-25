@@ -1,0 +1,123 @@
+.home-container {
+    min-width: 75vw;
+    height: 99vh;
+    background-color: var(--darkB);
+    color: var(--whiteA);
+}
+
+
+.home-content {
+    width: 100%;
+    height: 90%;
+    background-color: var(--darkB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.angry-grid {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    height: 100%;
+
+}
+
+.home-card-1 {
+    background-color: #BBBCEC;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-card-2 {
+    background-color: #D7B755;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-card-3 {
+    background-color: #BE87F7;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 2;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-card-4 {
+    background-color: #CAFD56;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-card-5 {
+    background-color: #56EC9D;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-card-6 {
+    background-color: #5E5FBA;
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-card-7 {
+    background-color: #BD7B99;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-card-8 {
+    background-color: #7D6CBA;
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: 2;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
